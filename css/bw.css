@@ -1,0 +1,174 @@
+.container1 {
+    max-width: 960px;
+    margin: 50px auto;
+    padding: 0 15px;
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.post1-image {
+    margin: 20px 0;
+    padding: 30px 0;
+    position: relative;
+}
+
+.post1-image:before {
+    content: "";
+    position: absolute;
+    border: 5px solid lightpink;
+    top: 10px;
+    bottom: 10px;
+    left: 35%;
+    right: 35%;
+}
+
+.post1-image img {
+    width: 100%;
+}
+
+.post1 h1 {
+    color: #222;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.post1-meta {
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+.author1 {
+    padding-right: 26px;
+    position: relative;
+}
+
+.author1:after {
+    content: "";
+    background: #DDDDDF;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 50%;
+    right: 7px;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.bb1 {
+    line-height: 1.5;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container1 {
+        padding: 0 45px;
+    }
+
+    .post1-image,
+    .post1 h1 {
+        text-align: center;
+    }
+
+    .post1-image img {
+        width: 70%;
+    }
+}
+
+
+.container2 {
+    max-width: 960px;
+    margin: 50px auto;
+    padding: 0 15px;
+    background: white;
+}
+
+.post2-image img {
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.post2 h1 {
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.post2-meta {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.author2 {
+    padding-right: 26px;
+    position: relative;
+}
+
+.author2:after {
+
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #666;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.vv1 {
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container2 {
+        padding: 0 45px;
+    }
+
+    .post2-image img {
+        float: right;
+        width: 300px;
+        margin: 0 0 20px 20px;
+    }
+
+    .post2-header {
+        padding-left: 26px;
+        border-left: 4px solid #D8D8D8;
+        margin-left: -30px;
+    }
+}
+
+#carouselExampleControls .carousel-item {
+    height: 580px;
+}
+
+#carouselExampleControls .carousel-item {
+    height: 580px;
+}
+
+.foot {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+
+
+
